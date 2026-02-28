@@ -18160,6 +18160,7 @@ fR:function fR(a){this.a=a},
 alR(){var s,r,q,p,o,n,m,l,k,j,i,h=null
 if($.a8i==null)$.a8i=new A.VK()
 s=v.G
+s.Telegram.WebApp.ready()
 s.Telegram.WebApp.expand()
 s.Telegram.WebApp.disableClosingConfirmation()
 if($.aC==null){s=t.kf
