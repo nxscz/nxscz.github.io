@@ -81204,7 +81204,7 @@ $S:0}
 A.akE.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e={}
 if(b.a===B.ma)return B.lC
-if(b.c!=null)return B.T6
+if(b.c!=null)return B.T7
 s=b.b
 if(s==null)s=A.c([],t.H7)
 r=A.r(t.N,t.S)
@@ -81232,7 +81232,7 @@ l=A.fA(15)
 g=e.a
 g=g<5?5:g+2
 g=A.aqh(f,f,h,A.au1(f,f,f,f,f,f,f,new A.Gj(B.E0,16,B.Eh,0,120,new A.akB(),!1,!1,B.yF,0,B.q,A.aNz())),f,A.av8(f,!1),B.Eo,f,B.Ep,f,g,f,f,0,new A.xm(!0,new A.n6(16,f,new A.pa(!0,new A.akC(),30,f,!0,!0),!0,B.k8),B.le,B.le,new A.n6(16,f,new A.pa(!0,new A.akD(r),22,f,!0,!0),!0,B.k8)))
-return A.lj(A.c([B.Ta,B.ko,n,B.kp,A.iL(f,new A.vG(g,B.ad,B.dW,f,f),B.w,f,new A.dU(o,f,f,l,f,f,B.ba),f,220,f,f,B.DU,f,f,f)],m),B.cd,B.aB,B.b3)},
+return A.lj(A.c([B.T6,B.ko,n,B.kp,A.iL(f,new A.vG(g,B.ad,B.dW,f,f),B.w,f,new A.dU(o,f,f,l,f,f,B.ba),f,220,f,f,B.DU,f,f,f)],m),B.cd,B.aB,B.b3)},
 $S:534}
 A.akz.prototype={
 $2(a,b){return a+b},
@@ -85790,8 +85790,8 @@ B.hy=new A.n(!0,null,null,null,null,null,24,null,null,null,null,null,null,null,n
 B.T0=new A.e4("Tady jsou Novinky",null,B.hy,null,null,null)
 B.Be=new A.h9(B.W,null,null,B.T0,null)
 B.LM=new A.je(null,B.Be,null,null)
-B.T7=new A.e4("Tady je Obchod",null,B.hy,null,null,null)
-B.Bd=new A.h9(B.W,null,null,B.T7,null)
+B.T8=new A.e4("Tady je Obchod",null,B.hy,null,null,null)
+B.Bd=new A.h9(B.W,null,null,B.T8,null)
 B.LN=new A.je(null,B.Bd,null,null)
 B.T4=new A.e4("Tady jsou \u010clenov\xe9",null,B.hy,null,null,null)
 B.Bc=new A.h9(B.W,null,null,B.T4,null)
@@ -86020,7 +86020,7 @@ B.NP=new A.jg(3,"hide")
 B.Wr=new A.jg(4,"remove")
 B.yc=new A.jg(5,"timeout")
 B.NQ=new A.t6(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.T9=new A.e4("Denn\xed odm\u011bna vybr\xe1na! +1 bod",null,null,null,null,null)
+B.Ta=new A.e4("Denn\xed odm\u011bna vybr\xe1na! +1 bod",null,null,null,null,null)
 B.CP=new A.u(1,0.9098039215686274,0.9607843137254902,0.9137254901960784,B.e)
 B.BQ=new A.u(1,0.7843137254901961,0.9019607843137255,0.788235294117647,B.e)
 B.CH=new A.u(1,0.6470588235294118,0.8392156862745098,0.6549019607843137,B.e)
@@ -86034,8 +86034,8 @@ B.BN=new A.u(1,0.10588235294117647,0.3686274509803922,0.12549019607843137,B.e)
 B.J3=new A.cz([50,B.CP,100,B.BQ,200,B.CH,300,B.CW,400,B.Ck,500,B.CR,600,B.CV,700,B.Bx,800,B.C8,900,B.BN],t.pl)
 B.J9=new A.j0(B.J3,1,0.2980392156862745,0.6862745098039216,0.3137254901960784,B.e)
 B.iE=new A.aM(4e6)
-B.NR=new A.kE(B.T9,B.J9,null,null,null,null,null,null,null,null,null,null,null,B.iE,null,null,null,B.Y,null)
-B.T8=new A.e4("Dne\u0161n\xed odm\u011bnu sis u\u017e vybral.",null,null,null,null,null)
+B.NR=new A.kE(B.Ta,B.J9,null,null,null,null,null,null,null,null,null,null,null,B.iE,null,null,null,B.Y,null)
+B.T9=new A.e4("Dne\u0161n\xed odm\u011bnu sis u\u017e vybral.",null,null,null,null,null)
 B.BT=new A.u(1,1,0.9529411764705882,0.8784313725490196,B.e)
 B.Cw=new A.u(1,1,0.8784313725490196,0.6980392156862745,B.e)
 B.CX=new A.u(1,1,0.8,0.5019607843137255,B.e)
@@ -86048,7 +86048,7 @@ B.CE=new A.u(1,0.9372549019607843,0.4235294117647059,0,B.e)
 B.BJ=new A.u(1,0.9019607843137255,0.3176470588235294,0,B.e)
 B.IZ=new A.cz([50,B.BT,100,B.Cw,200,B.CX,300,B.Bz,400,B.C5,500,B.Cp,600,B.CG,700,B.C0,800,B.CE,900,B.BJ],t.pl)
 B.J8=new A.j0(B.IZ,1,1,0.596078431372549,0,B.e)
-B.NS=new A.kE(B.T8,B.J8,null,null,null,null,null,null,null,null,null,null,null,B.iE,null,null,null,B.Y,null)
+B.NS=new A.kE(B.T9,B.J8,null,null,null,null,null,null,null,null,null,null,null,B.iE,null,null,null,B.Y,null)
 B.T2=new A.e4("N\u011bco se pokazilo. Zkus to znovu.",null,null,null,null,null)
 B.Co=new A.u(1,1,0.9215686274509803,0.9333333333333333,B.e)
 B.BR=new A.u(1,1,0.803921568627451,0.8235294117647058,B.e)
@@ -86431,9 +86431,9 @@ B.T_=new A.dv(B.QN,B.PQ,B.QO,B.Rm,B.Pr,B.Py,B.Q9,B.R9,B.Qo,B.RS,B.OW,B.Pg,B.RO,B
 B.T1=new A.e4("Daily free",null,null,null,null,null)
 B.T3=new A.e4("(ID m\u016f\u017ee\u0161 zkop\xedrovat podr\u017een\xedm prstu)",null,B.yy,null,null,null)
 B.T5=new A.e4("P\u0159\xedstup odep\u0159en",null,B.yw,null,null,null)
+B.T6=new A.e4("Aktivita",null,B.yx,null,null,null)
 B.S6=new A.n(!0,B.tq,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.T6=new A.e4("Nepoda\u0159ilo se na\u010d\xedst statistiky.",null,B.S6,null,null,null)
-B.Ta=new A.e4("Aktivita (CEO Jobs)",null,B.yx,null,null,null)
+B.T7=new A.e4("Nepoda\u0159ilo se na\u010d\xedst statistiky.",null,B.S6,null,null,null)
 B.Tc=new A.e4("Telegram ID:",null,null,null,null,null)
 B.Wt=new A.aeP(0,"system")
 B.JY=new A.h(0.056,0.024)
