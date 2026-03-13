@@ -25538,6 +25538,7 @@ q=v.G
 q.Telegram.WebApp.ready()
 q.Telegram.WebApp.expand()
 q.Telegram.WebApp.enableClosingConfirmation()
+q.Telegram.WebApp.disableVerticalSwipes()
 if($.a0==null)A.atX()
 q=$.a0
 q.toString
@@ -83528,9 +83529,9 @@ return A.J($async$vt,r)},
 M(a){var s,r,q,p=null
 if(this.d)return B.Mk
 s=t.E
-r=A.c([B.Fq,B.kz,B.TM,B.ky,A.ec(this.f,p,B.yT,B.cD),B.Oa],s)
+r=A.c([B.Fq,B.kz,B.TJ,B.ky,A.ec(this.f,p,B.yT,B.cD),B.Oa],s)
 q=this.e
-if(q!=null)B.b.O(r,A.c([B.TV,B.yx,new A.AB(q,B.T6,p),B.ky,B.TI],s))
+if(q!=null)B.b.O(r,A.c([B.TV,B.yx,new A.AB(q,B.T6,p),B.ky,B.TH],s))
 return A.az4(p,new A.cm(B.Ey,A.k0(r,B.a5,B.jQ,B.aC),p),p)}}
 A.ai0.prototype={
 $0(){var s=this.a
@@ -83635,7 +83636,7 @@ if(m==null){s=1
 break}if(l==="success"){p.ai(new A.amB(p))
 p.c.ae(t.Pu).f.ke(B.Om)}else if(l==="not_enough_jobs")m.ae(t.Pu).f.ke(B.Oq)
 else{k=t.Pu
-if(l==="already_claimed")m.ae(k).f.ke(B.Os)
+if(l==="already_claimed")m.ae(k).f.ke(B.Or)
 else m.ae(k).f.ke(B.yA)}case 1:return A.I(q,r)}})
 return A.J($async$vU,r)},
 w_(){var s=0,r=A.K(t.H),q,p=this,o,n,m,l,k,j
@@ -83655,10 +83656,10 @@ p.ai(new A.amD(p))
 l=p.c
 if(l==null){s=1
 break}if(k==="success"){p.ai(new A.amE(p))
-p.c.ae(t.Pu).f.ke(B.Oo)}else if(k==="already_claimed")l.ae(t.Pu).f.ke(B.On)
-else if(k==="not_member_long_enough")l.ae(t.Pu).f.ke(B.Or)
+p.c.ae(t.Pu).f.ke(B.Oo)}else if(k==="already_claimed")l.ae(t.Pu).f.ke(B.Os)
+else if(k==="not_member_long_enough")l.ae(t.Pu).f.ke(B.Op)
 else{j=t.Pu
-if(k==="not_enough_jobs")l.ae(j).f.ke(B.Op)
+if(k==="not_enough_jobs")l.ae(j).f.ke(B.On)
 else l.ae(j).f.ke(B.yA)}case 1:return A.I(q,r)}})
 return A.J($async$w_,r)},
 M(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=g.a.c.i(0,"nickname")
@@ -83678,7 +83679,7 @@ l=A.kL(A.c([g.Kn("Body",B.h.k(l),B.Fh),g.Kn("Organizace","Violet Vultures",B.Fa)
 j=g.e
 i=j?f:g.ga5N()
 j=j?B.yw:B.Fp
-i=A.r9(A.ax3(j,B.TE,i,A.ax4(f,f,B.ab,f,f,f,f,f,f,B.k,f,f,B.mL,f,new A.ck(A.eQ(10),B.q),f,f,f,f,f)),1)
+i=A.r9(A.ax3(j,B.TD,i,A.ax4(f,f,B.ab,f,f,f,f,f,f,B.k,f,f,B.mL,f,new A.ck(A.eQ(10),B.q),f,f,f,f,f)),1)
 j=g.f
 h=j||g.r?f:g.ga8r()
 j=j?B.yw:B.Fm
@@ -83722,7 +83723,7 @@ $S:0}
 A.amy.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e={}
 if(b.a===B.iy)return B.ik
-if(b.c!=null)return B.TO
+if(b.c!=null)return B.TL
 s=b.b
 if(s==null)s=A.c([],t.H7)
 r=A.t(t.N,t.S)
@@ -83750,7 +83751,7 @@ l=A.eQ(15)
 g=e.a
 g=g<5?5:g+2
 g=A.asd(f,f,h,A.aw_(f,f,f,f,f,f,f,new A.H8(B.Ew,16,B.EN,0,120,new A.amv(),!1,!1,B.z3,0,B.q,A.aPF())),f,A.axc(f,!1),B.EU,f,B.EV,f,g,f,f,0,new A.xS(!0,new A.ns(16,f,new A.pu(!0,new A.amw(),30,f,!0,!0),!0,B.ki),B.lq,B.lq,new A.ns(16,f,new A.pu(!0,new A.amx(r),22,f,!0,!0),!0,B.ki)))
-return A.k0(A.c([B.TN,B.ky,n,B.kz,A.iS(f,new A.wb(g,B.ag,B.e_,f,f),B.w,f,new A.e0(o,f,f,l,f,f,B.bc),f,220,f,f,B.Ep,f,f,f)],m),B.bD,B.ao,B.aC)},
+return A.k0(A.c([B.TK,B.ky,n,B.kz,A.iS(f,new A.wb(g,B.ag,B.e_,f,f),B.w,f,new A.e0(o,f,f,l,f,f,B.bc),f,220,f,f,B.Ep,f,f,f)],m),B.bD,B.ao,B.aC)},
 $S:155}
 A.amt.prototype={
 $2(a,b){return a+b},
@@ -86689,8 +86690,8 @@ B.m1=new A.w(1,0.12941176470588237,0.12941176470588237,0.12941176470588237,B.e)
 B.Jf=new A.cC([50,B.mg,100,B.CS,200,B.CI,300,B.mi,350,B.cX,400,B.Cg,500,B.mo,600,B.dT,700,B.cW,800,B.bV,850,B.is,900,B.m1],t.pl)
 B.cu=new A.j9(B.Jf,1,0.6196078431372549,0.6196078431372549,0.6196078431372549,B.e)
 B.T4=new A.m(!0,B.cu,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.TF=new A.cU("Zat\xedm tu nejsou \u017e\xe1dn\xe9 novinky.",null,B.T4,null,null,null)
-B.BK=new A.fJ(B.O,null,null,B.TF,null)
+B.TE=new A.cU("Zat\xedm tu nejsou \u017e\xe1dn\xe9 novinky.",null,B.T4,null,null,null)
+B.BK=new A.fJ(B.O,null,null,B.TE,null)
 B.BL=new A.ly(1,"error")
 B.lU=new A.ly(5,"heartbeat")
 B.lV=new A.ly(6,"accessToken")
@@ -88426,8 +88427,8 @@ B.kN=new A.m(!0,null,null,null,null,null,24,null,null,null,null,null,null,null,n
 B.TP=new A.cU("Tady je Obchod",null,B.kN,null,null,null)
 B.BJ=new A.fJ(B.O,null,null,B.TP,null)
 B.Mi=new A.kM(null,B.BJ,null,null)
-B.TL=new A.cU("Tady jsou \u010clenov\xe9",null,B.kN,null,null,null)
-B.BI=new A.fJ(B.O,null,null,B.TL,null)
+B.TI=new A.cU("Tady jsou \u010clenov\xe9",null,B.kN,null,null,null)
+B.BI=new A.fJ(B.O,null,null,B.TI,null)
 B.Mj=new A.kM(null,B.BI,null,null)
 B.Mk=new A.kM(null,B.ik,null,null)
 B.TT=new A.cU("Tady jsou Ostatn\xed",null,B.kN,null,null,null)
@@ -88657,7 +88658,7 @@ B.Ok=new A.jo(3,"hide")
 B.Xa=new A.jo(4,"remove")
 B.yz=new A.jo(5,"timeout")
 B.Ol=new A.tB(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.TS=new A.cU("Denn\xed odm\u011bna vybr\xe1na! +1 bod",null,null,null,null,null)
+B.TQ=new A.cU("Denn\xed odm\u011bna vybr\xe1na! +1 bod",null,null,null,null,null)
 B.Dj=new A.w(1,0.9098039215686274,0.9607843137254902,0.9137254901960784,B.e)
 B.Cl=new A.w(1,0.7843137254901961,0.9019607843137255,0.788235294117647,B.e)
 B.Db=new A.w(1,0.6470588235294118,0.8392156862745098,0.6549019607843137,B.e)
@@ -88671,8 +88672,10 @@ B.Ci=new A.w(1,0.10588235294117647,0.3686274509803922,0.12549019607843137,B.e)
 B.JB=new A.cC([50,B.Dj,100,B.Cl,200,B.Db,300,B.Dq,400,B.CQ,500,B.Dl,600,B.Dp,700,B.C2,800,B.CE,900,B.Ci],t.pl)
 B.tL=new A.j9(B.JB,1,0.2980392156862745,0.6862745098039216,0.3137254901960784,B.e)
 B.bW=new A.aQ(4e6)
-B.Om=new A.fu(B.TS,B.tL,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
-B.TD=new A.cU("\xdavodn\xed bonus jsi ji\u017e vybral.",null,null,null,null,null)
+B.Om=new A.fu(B.TQ,B.tL,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
+B.TM=new A.cU("N\u011bco se pokazilo. Zkuste to znovu.",null,null,null,null,null)
+B.yA=new A.fu(B.TM,B.tK,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
+B.TR=new A.cU("Pro vybr\xe1n\xed uv\xedtac\xedho bonusu mus\xedte m\xedt spln\u011bno alespo\u0148 30 CEO job\u016f za posledn\xedch 30 dn\u016f.",null,null,null,null,null)
 B.Co=new A.w(1,1,0.9529411764705882,0.8784313725490196,B.e)
 B.D1=new A.w(1,1,0.8784313725490196,0.6980392156862745,B.e)
 B.Dr=new A.w(1,1,0.8,0.5019607843137255,B.e)
@@ -88685,19 +88688,17 @@ B.D8=new A.w(1,0.9372549019607843,0.4235294117647059,0,B.e)
 B.Ce=new A.w(1,0.9019607843137255,0.3176470588235294,0,B.e)
 B.Jw=new A.cC([50,B.Co,100,B.D1,200,B.Dr,300,B.C4,400,B.CB,500,B.CV,600,B.Da,700,B.Cw,800,B.D8,900,B.Ce],t.pl)
 B.en=new A.j9(B.Jw,1,1,0.596078431372549,0,B.e)
-B.On=new A.fu(B.TD,B.en,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
+B.On=new A.fu(B.TR,B.en,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
 B.TG=new A.cU("Welcome bonus vybr\xe1n! +3200 bod\u016f",null,null,null,null,null)
 B.Oo=new A.fu(B.TG,B.tL,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
-B.TH=new A.cU("N\u011bco se pokazilo. Zkus to znovu.",null,null,null,null,null)
-B.yA=new A.fu(B.TH,B.tK,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
-B.TQ=new A.cU("Za posledn\xedch 30 dn\u016f mus\xed\u0161 m\xedt spln\u011bno alespo\u0148 30 job\u016f.",null,null,null,null,null)
-B.Op=new A.fu(B.TQ,B.en,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
-B.TR=new A.cU("Pro vybr\xe1n\xed denn\xed odm\u011bny mus\xed\u0161 m\xedt spln\u011bno alespo\u0148 10 CEO job\u016f za posledn\xedch 30 dn\u016f.",null,null,null,null,null)
-B.Oq=new A.fu(B.TR,B.en,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
-B.TJ=new A.cU("Mus\xed\u0161 b\xfdt v organizaci alespo\u0148 1 m\u011bs\xedc.",null,null,null,null,null)
-B.Or=new A.fu(B.TJ,B.en,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
-B.TK=new A.cU("Dnes u\u017e sis vybral denn\xed odm\u011bnu.",null,null,null,null,null)
-B.Os=new A.fu(B.TK,B.en,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
+B.TN=new A.cU("Pro vybr\xe1n\xed uv\xedtac\xedho bonusu mus\xedte b\xfdt \u010dlenem organizace alespo\u0148 30 dn\u016f.",null,null,null,null,null)
+B.Op=new A.fu(B.TN,B.en,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
+B.TO=new A.cU("Pro vybr\xe1n\xed denn\xed odm\u011bny mus\xedte m\xedt spln\u011bno alespo\u0148 10 CEO job\u016f za posledn\xedch 30 dn\u016f.",null,null,null,null,null)
+B.Oq=new A.fu(B.TO,B.en,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
+B.TS=new A.cU("Denn\xed odm\u011bna dnes ji\u017e byla vybr\xe1na.",null,null,null,null,null)
+B.Or=new A.fu(B.TS,B.en,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
+B.TF=new A.cU("Uv\xedtac\xed bonus byl ji\u017e vybr\xe1n.",null,null,null,null,null)
+B.Os=new A.fu(B.TF,B.en,null,null,null,null,null,null,null,null,null,null,null,B.bW,null,null,null,B.E,null)
 B.yB=new A.B0(0,"permissive")
 B.Ot=new A.B0(1,"normal")
 B.Ou=new A.B0(2,"forced")
@@ -89067,11 +89068,11 @@ B.SI=new A.m(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.PF=new A.m(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.TB=new A.dC(B.Rn,B.Qq,B.Ro,B.RY,B.Q0,B.Q7,B.QK,B.RK,B.QZ,B.St,B.Pv,B.PQ,B.Sp,B.SI,B.PF)
 B.yZ=new A.m(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.TE=new A.cU("Daily free",null,B.yZ,null,null,null)
-B.TI=new A.cU("(ID m\u016f\u017ee\u0161 zkop\xedrovat podr\u017een\xedm prstu)",null,B.kM,null,null,null)
-B.TM=new A.cU("P\u0159\xedstup odep\u0159en",null,B.yU,null,null,null)
-B.TN=new A.cU("Aktivita",null,B.yV,null,null,null)
-B.TO=new A.cU("Nepoda\u0159ilo se na\u010d\xedst statistiky.",null,B.yY,null,null,null)
+B.TD=new A.cU("Daily free",null,B.yZ,null,null,null)
+B.TH=new A.cU("(ID m\u016f\u017ee\u0161 zkop\xedrovat podr\u017een\xedm prstu)",null,B.kM,null,null,null)
+B.TJ=new A.cU("P\u0159\xedstup odep\u0159en",null,B.yU,null,null,null)
+B.TK=new A.cU("Aktivita",null,B.yV,null,null,null)
+B.TL=new A.cU("Nepoda\u0159ilo se na\u010d\xedst statistiky.",null,B.yY,null,null,null)
 B.TU=new A.cU("Welcome",null,B.yZ,null,null,null)
 B.TV=new A.cU("Telegram ID:",null,null,null,null,null)
 B.Xc=new A.agB(0,"system")
