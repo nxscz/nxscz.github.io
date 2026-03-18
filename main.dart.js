@@ -26840,7 +26840,7 @@ agf(){var s=0,r=A.K(t.b5),q,p=2,o=[],n,m,l,k,j
 var $async$agf=A.L(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.B($.i0().fm("shop_items").qW().Hq("price",!0),$async$agf)
+return A.B($.i0().fm("shop_items").qW().Hq("order",!0),$async$agf)
 case 7:n=b
 l=A.dU(n,!0,t.P)
 q=l
