@@ -26584,15 +26584,15 @@ s=1
 break}m=A.rc(a5)
 l=new A.cP(Date.now(),0,!1)
 d=A.pi(l)
-c=A.zP(l)-1
-b=A.zO(l)
+c=A.zP(l)
+b=A.zO(l)-14
 a=A.azi(d,c,b,0,0,0,0,0,!1)
 if(a==null)a=864e14
 if(a===864e14)A.W(A.bz("("+d+", "+c+", "+b+", 0, 0, 0, 0, 0)",null))
 k=new A.cP(a,0,!1)
 if(m.ug(k)){q="not_member_long_enough"
 s=1
-break}j=l.n3(-2592e9).lk().split("T")[0]
+break}j=l.n3(-12096e8).lk().split("T")[0]
 e=e.f_("ceo_jobs").lw("count").h0("player_id",a2)
 s=8
 return A.B(A.mi(e.n6(e.tb("date","gte."+A.k(j))),e.$ti.c),$async$Bs)
@@ -26602,7 +26602,7 @@ for(e=J.bc(i);e.n();){g=e.gI()
 d=h
 c=A.qn(J.cT(g,"count"))
 c=c==null?null:B.d.cV(c)
-h=d+(c==null?0:c)}if(h<30){q="not_enough_jobs"
+h=d+(c==null?0:c)}if(h<20){q="not_enough_jobs"
 s=1
 break}e=t.z
 s=9
@@ -89592,7 +89592,7 @@ B.b9=new A.aR(4e6)
 B.OJ=new A.e0(B.Uv,B.be,null,null,null,null,null,null,null,null,null,null,null,B.b9,null,null,null,B.C,null)
 B.Um=new A.bN("N\u011bco se pokazilo. Zkuste to znovu.",null,null,null,null,null)
 B.yH=new A.e0(B.Um,B.k5,null,null,null,null,null,null,null,null,null,null,null,B.b9,null,null,null,B.C,null)
-B.Uw=new A.bN("Pro vybr\xe1n\xed uv\xedtac\xedho bonusu mus\xedte m\xedt spln\u011bno alespo\u0148 30 CEO job\u016f za posledn\xedch 30 dn\u016f.",null,null,null,null,null)
+B.Uw=new A.bN("Pro vybr\xe1n\xed uv\xedtac\xedho bonusu mus\xedte m\xedt spln\u011bno alespo\u0148 20 CEO job\u016f za posledn\xedch 14 dn\u016f.",null,null,null,null,null)
 B.OK=new A.e0(B.Uw,B.b_,null,null,null,null,null,null,null,null,null,null,null,B.b9,null,null,null,B.C,null)
 B.Ur=new A.bN("Prob\xedh\xe1 zpracov\xe1n\xed n\xe1kupu...",null,null,null,null,null)
 B.OL=new A.e0(B.Ur,null,null,null,null,null,null,null,null,null,null,null,null,B.e8,null,null,null,B.C,null)
@@ -89606,7 +89606,7 @@ B.Us=new A.bN("N\xe1kup prob\u011bhl \xfasp\u011b\u0161n\u011b.",null,null,null,
 B.OP=new A.e0(B.Us,B.be,null,null,null,null,null,null,null,null,null,null,null,B.b9,null,null,null,B.C,null)
 B.U7=new A.bN("Pro nakupov\xe1n\xed v obchodu mus\xedte m\xedt spln\u011bno alespo\u0148 30 CEO job\u016f za posledn\xedch 30 dn\u016f.",null,null,null,null,null)
 B.OQ=new A.e0(B.U7,B.b_,null,null,null,null,null,null,null,null,null,null,null,B.b9,null,null,null,B.C,null)
-B.Un=new A.bN("Pro vybr\xe1n\xed uv\xedtac\xedho bonusu mus\xedte b\xfdt \u010dlenem organizace alespo\u0148 30 dn\u016f.",null,null,null,null,null)
+B.Un=new A.bN("Pro vybr\xe1n\xed uv\xedtac\xedho bonusu mus\xedte b\xfdt \u010dlenem organizace alespo\u0148 14 dn\u016f.",null,null,null,null,null)
 B.OR=new A.e0(B.Un,B.b_,null,null,null,null,null,null,null,null,null,null,null,B.b9,null,null,null,B.C,null)
 B.Uo=new A.bN("Pro vybr\xe1n\xed denn\xed odm\u011bny mus\xedte m\xedt spln\u011bno alespo\u0148 10 CEO job\u016f za posledn\xedch 30 dn\u016f.",null,null,null,null,null)
 B.OS=new A.e0(B.Uo,B.b_,null,null,null,null,null,null,null,null,null,null,null,B.b9,null,null,null,B.C,null)
