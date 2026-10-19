@@ -1,6 +1,0 @@
-* text=auto
-_framework/* binary
-*.js binary
-*.wasm binary
-*.json binary
-*.dll binary
